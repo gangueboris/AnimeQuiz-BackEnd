@@ -1,5 +1,5 @@
 # Use a base image with Java
-FROM maven:3.9.5-openjdk AS build
+FROM maven:3.9.5-eclipse-temurin AS build
 
 # Copy the project in the build
 COPY . .
