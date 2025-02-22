@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping
+@CrossOrigin(origins = "http://localhost:4200") // Allow requests from Angular app
 public class QuizController {
     private final QuizService quizService;
 
