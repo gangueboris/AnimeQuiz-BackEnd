@@ -25,3 +25,8 @@ EXPOSE 8080
 
 ENTRYPOINT ["java", "-jar", "AnimeQuiz.jar"]
 ```
+---
+## Backend Url
+``
+https://animequiz-api.onrender.com
+``
